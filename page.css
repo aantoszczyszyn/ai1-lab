@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5d1a1;
+    text-align: center;
+  }
+  
+  .map-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .map {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .puzzle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px;
+  }
+  
+  .puzzle-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 5px;
+    margin: 20px auto;
+  }
+  
+  .piece {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333;
+    background-color: #ddd;
+    cursor: grab;
+  }
+  
+  .piece {
+    width: 75px;
+    height: 75px;
+    cursor: grab;
+    border: 1px solid #333;
+    background: #fff; /* Dla lepszej widoczności */
+    text-align: center;
+  }
+  
+  .piece:active {
+    cursor: grabbing; /* Styl podczas przeciągania */
+  }
+  
+  .drop-zone {
+    width: 75px;
+    height: 75px;
+    border: 2px dashed #7f7fe9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .drop-zone.hover {
+    border-color: #4CAF50; /* Kolor podczas hover */
+  }
+  
+  #raster-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #raster-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
