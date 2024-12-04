@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    color: #003333;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003333;
+    color: #e0f7fa;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.2em;
+    color: #004d40;
+}
+
+.banner_con {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner_img {
+    opacity: 0.8;
+}
+
+.banner-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.banner-text h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(0, 51, 51, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.blok1 {
+    padding: 20px;
+    background-color: #004d4d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.art1 {
+    background-color: #e0f2f1;
+    padding: 15px;
+    border-radius: 10px;
+    color: #003333;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.basen, .killCount {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.basen .opisBasen {
+    font-size: 1.1em;
+    color: #003333;
+}
+
+.basen img {
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.killCount h3 {
+    color: #004d4d;
+}
+
+.killCount ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.killCount li {
+    font-size: 1.2em;
+    color: #00796b;
+    padding: 5px 0;
+}
+
+.killCount img {
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+a {
+    color: #004d4d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00796b;
+}
+
+@media (max-width: 768px) {
+    .banner-text h1 {
+        font-size: 2em;
+    }
+
+    .blok1 {
+        padding: 10px;
+    }
+
+    .art1 {
+        font-size: 1em;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .basen, .killCount {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .basen img, .killCount img {
+        width: 100%;
+        height: auto;
+    }
+
+    .killCount ul {
+        font-size: 1em;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+

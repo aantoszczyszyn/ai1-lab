@@ -1,0 +1,183 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #006064;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #00ff40;
+    font-family: cursive;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #c11e1e;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #bb209e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.2em;
+    color: #004d40;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #444444;
+    color: #f4f4f9;
+    font-size: 14px;
+}
+
+.banner_con {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner_img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: relative;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.blok1 {
+    padding: 40px;
+    background-color: #eeeeee;
+    color: #333333;
+    max-width: 800px;
+    margin: auto;
+    border-left: 5px solid #444444;
+}
+
+.art1 {
+    font-size: 1.1em;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.basen, .killCount {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-top: 4px solid #444444;
+}
+
+.basen .opisBasen {
+    font-size: 1.2em;
+    color: #333333;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.basen img, .killCount img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.killCount h3 {
+    color: #444444;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.killCount ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.killCount li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #444444;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #777777;
+}
+
+@media (max-width: 768px) {
+    .banner-text {
+        font-size: 1.8em;
+    }
+    .blok1 {
+        padding: 20px;
+        max-width: 95%;
+        border-left: none;
+    }
+
+    .art1 {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .basen, .killCount {
+        width: 95%;
+    }
+
+    .basen img, .killCount img {
+        width: 100%;
+        height: auto;
+    }
+
+    .killCount ul {
+        font-size: 1em;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
